@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    overflow: auto;
+    word-spacing: 30px;
+}
+
+
+.jumbotron {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    background: #090A0A;
+    color: #FFFFFF;
+    font-size:80px;
+}
+
+img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
+
+
+.card{
+    padding: 30px;
+    background: #000000;
+    color:#FFFFFF;
+}
+
+.Story {
+    padding: 20%;
+}
+
+
+
+
+  /* Media Queries */
+  
+  @media (min-width: 700px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
